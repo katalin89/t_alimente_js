@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <table  style="border-style:solid ;">
+        <caption>Alimente</caption>
+        <thead>
+            <tr  class="aliment">
+                <th>Denumire</th>
+                <th>Tip</th>
+                <th>Pret</th>
+               
+            </tr>
+        </thead>
+        <tbody class="container-alimente">
+    
+    <!-- aici intra toate tagurile din tabel(e dinamic) -->
+    
+        </tbody>
+    </table>
+    
+    <div class="cauta">
+        <h1>Cauta</h1>
+    </div>
+    
+    <div class="container">
+       
+    
+        <div class="denumire">
+            <!-- placeholder va afisa in input ce scriem in placeholder -->
+            <input placeholder="Denumire" type="text" name="" id="" class="denumire-aliment">
+        </div>
+    
+        <div class="tip">
+            <input placeholder="Tip" type="text" name="" id="" class="tip-aliment"> 
+        </div>
+    
+        <div class="pret">
+            <input placeholder="Pret" type="text" name="" id="" class="pret-aliment">
+        </div>
+
+       
+        
+    </div>
+    
+        <div  class ="add">
+            <button class="add-aliment" >Add aliment</button>
+            <button class="show-aliment">Show Aliment</button>
+    
+            <button class="sorteaza">Sort</button>
+    
+            <button class="sterge">Delete</button>
+        </div>
+        
+        <div class="exemplu">
+            
+        </div>
+        <script src="./app.js"></script>
+    
+</body>
+</html>
